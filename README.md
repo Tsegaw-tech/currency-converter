@@ -1,16 +1,138 @@
-# React + Vite
+# Currency Converter – ALX Capstone Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Currency Converter Web Application** built with **React and Tailwind CSS** that allows users to convert between global currencies using **real-time exchange rates** from a public API.
 
-Currently, two official plugins are available:
+This project demonstrates real-world frontend development skills including API integration, state management, responsive UI design, and deployment readiness.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✅ Core Features
 
-## Expanding the ESLint configuration
+* Real-time currency conversion
+* Select **From Currency** and **To Currency**
+* Enter amount to convert
+* Displays **live exchange rate**
+* Conversion result updates using **real online data**
+* Supports multiple currencies:
+  `USD, EUR, GBP, JPY, CAD, ETB`, and more
+* Fully **responsive UI** with Tailwind CSS
+* Works on **desktop and mobile**
+* User-friendly currency dropdown selection
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔮 Future Features (Optional)
+
+* Swap selected currencies
+* Conversion history log
+* Dark / Light mode toggle
+
+---
+
+## 🌐 API Used
+
+**ExchangeRate-API**
+
+* Reliable and free currency exchange API
+* Simple JSON response format
+* Works directly with `fetch()` or `axios`
+
+**Example Endpoint:**
+
+```
+https://api.exchangerate-api.com/v4/latest/USD
+```
+
+---
+
+## 🧩 Project Structure
+
+This project follows a **Single Page Application (SPA)** architecture.
+
+### Component Breakdown
+
+| Component               | Purpose                               |
+| ----------------------- | ------------------------------------- |
+| `App.jsx`               | Main wrapper and layout               |
+| `CurrencyConverter.jsx` | Handles API call and conversion logic |
+| `CurrencySelect.jsx`    | Dropdown selector for currencies      |
+| `AmountInput.jsx`       | Input field for amount                |
+| `Result.jsx`            | Displays final converted amount       |
+
+---
+
+## 🛠️ Tech Stack
+
+* **React (Vite)**
+* **Tailwind CSS**
+* **JavaScript (ES6+)**
+* **ExchangeRate API**
+* **HTML5 & CSS3**
+
+---
+
+## ▶️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/currency-converter.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd currency-converter
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📱 Responsive Design
+
+The application is fully responsive and optimized for:
+
+* ✅ Desktop
+* ✅ Tablet
+* ✅ Mobile devices
+
+---
+
+## 🎯 Learning Outcomes
+
+* API integration using `fetch` or `axios`
+* React state management with `useState` and `useEffect`
+* Component-based UI architecture
+* Responsive UI development with Tailwind CSS
+* Real-world project structure and deployment readiness
+
+---
+
+## 📦 Deployment
+
+The application can be deployed using:
+
+* **Netlify**
+* **Vercel**
+
+---
+
+## 👨‍💻 Author
+
+**ALX Software Engineering Capstone Project**
+Frontend Developer | Currency Converter Application
+
+---
+
+✅ *This project simulates a real-world frontend development environment and serves as a production-ready demonstration of React skills.*
